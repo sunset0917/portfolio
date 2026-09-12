@@ -6,5 +6,5 @@ import { defineConfig } from "vite";
 export default defineConfig(({ mode }) => ({
     plugins: [react(), mode === "development" && screenGraphPlugin()],
     publicDir: "./static",
-    base: "./portfolio/",
+    base: "/portfolio/",
 }));
